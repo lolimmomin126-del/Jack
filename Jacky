@@ -1,5 +1,6 @@
 -- This script is made by Jack dick
-getgenv().wmxjd = true
+local genv = (getgenv and getgenv()) or _G
+genv.wmxjd = true
 
 local noclipbool = false
 local infstambool = false
